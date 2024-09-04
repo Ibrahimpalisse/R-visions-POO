@@ -37,7 +37,7 @@ var_dump($category->getCreatedAt());
 echo"</br>";
 echo"</br>";
 
-$product = new  Product(1, "t_shirt", ["../image/t_shirt.png"],1000,"a beautiful t_shirt", 10,$category->getID(), $currentDate, $updatedat);
+$product = new  Product(1, "t_shirt", ["../image/pantalon.png"],1000,"a beautiful t_shirt", 10,$category->getID(), $currentDate, $updatedat);
 
 var_dump($product->getId()); 
 echo"</br>";   
@@ -56,7 +56,5 @@ echo"</br>";
 var_dump($product->getCreatedAt());
 echo"</br>";
 var_dump($product->getUpdatedAt());
-
-
 
 ?>
