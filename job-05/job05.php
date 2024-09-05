@@ -99,9 +99,9 @@ class Product {
         $this->updatedAt = $updatedAt;
     }
 
-    // Méthode pour obtenir la catégorie associée
+    
     public function getCategory() {
-        global $bdd; // Utilisez la connexion PDO globale
+        global $bdd; 
 
         $stmt = $bdd->prepare("SELECT * FROM category WHERE id = :id");
         $stmt->bindParam(':id', $this->category_id, PDO::PARAM_INT);
