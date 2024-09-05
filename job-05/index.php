@@ -1,7 +1,7 @@
 <?php
 require_once "../bdd/connexion.php";
-require_once "../job-02/classe Product.php";
-require_once "../job-02/job02.php";
+require_once "./job05.php";
+
 
 try {
     

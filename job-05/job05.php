@@ -1,5 +1,6 @@
 <?php
-require_once '../bdd/connexion.php'; // Assurez-vous que la connexion est incluse
+require_once '../bdd/connexion.php';
+require_once '../job-02/job02.php'; // Assurez-vous que la connexion est incluse
 
 class Product {
     private $id;
@@ -100,6 +101,7 @@ class Product {
     }
 
     
+
     public function getCategory() {
         global $bdd; 
 
